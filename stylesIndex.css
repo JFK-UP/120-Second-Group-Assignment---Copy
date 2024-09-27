@@ -1,41 +1,49 @@
 
 .header-container{
     text-align: center;
-    background-color: #e692d2;
-    padding: 30PX;
-    display: flex;
-    flex-direction: row;
-    gap: 30%;
-    justify-content: center;
-    border-bottom: 10px solid #c9b0ee;
-   
+    background-color: #e692d299;
+    padding: 0;
+    border: inset rgb(238, 103, 250) 5px;
+    border-radius: 30px ;
 }
-.header-container div{
-    width: 80px;
-    height: 100px;
-    background-color: #a52ccd;
-    max-width: 100%;
-    display: inline-block;
-    
-}
+
 .header-container h1 {
     display: inline-block;
-    color: #d054ab;
-    font-size: 50px;
-    font-family: 'Times New Roman', Times, serif;
+    color: #b41d87;
+    font-size: 80px;
+    font-family: sans-serif, Times, serif, Times, serif;
+    font-weight: 800;
+   letter-spacing: 5px;
 }
 .left-header{
     justify-content: left;
 }
-.Scontainer{
-    background-color: #281dcb88;
-}
+
 main{
-   height: 500px;
-    width: 50%;
+    margin: 50px  auto;
+  display: flex;
+  background-color: #e692d299;
+  border: inset  rgb(238, 103, 250)  5px;
+  border-radius: 50px;
+  width: 80%;
+  height: 1000px;
+  justify-content: center;
+}
+ .header-container:hover {
+       border: outset rgb(238, 103, 250) 10px; 
+      
+}
+h1:hover{
+    color: #90597f;
 }
 body{
-    background-image: url(https://www.google.co.za/url?sa=i&url=https%3A%2F%2Fwallpapercg.com%2Fwomens-day-wallpapers&psig=AOvVaw2bCDVQy92-DHrm3k0LdL2w&ust=1726843263632000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCe59aez4gDFQAAAAAdAAAAABAE);
+    background-image: linear-gradient(to right top, #ef2d57, #f7306f, #fc3888, #fd44a2, #fb52bb, #fa52bb, #f853ba, #f753ba, #f646a1, #f13a88, #ea3270, #e02d59);
+    
 }
+main h1{
+    color: #edaee0;
+}
+
+
 
 
