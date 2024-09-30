@@ -5,9 +5,11 @@
     padding: 0;
     border: inset rgb(238, 103, 250) 5px;
     border-radius: 30px ;
+    width: 100%;
+    height: 200px;
 }
 
-.header-container h1 {
+.header-container  {
     display: inline-block;
     color: #b41d87;
     font-size: 80px;
@@ -15,9 +17,7 @@
     font-weight: 800;
    letter-spacing: 5px;
 }
-.left-header{
-    justify-content: left;
-}
+
 
 main{
     margin: 50px  auto;
@@ -33,7 +33,7 @@ main{
        border: outset rgb(238, 103, 250) 10px; 
       
 }
-h1:hover{
+.header-container:hover{
     color: #90597f;
 }
 body{
@@ -43,7 +43,31 @@ body{
 main h1{
     color: #edaee0;
 }
-
+header p{
+    font-weight: 400;
+    text-align: center;
+    color: #edaee0;
+}
+footer{
+    background-color: #906081;
+    height: 150px;
+    padding: 0;
+}
+footer div{
+    display: inline-block;
+    margin: 0;
+    
+}
+.about-section{
+    background-color: #8e57adaa;
+    width: 69%;
+    height: 100%;
+}
+.contact{
+    background-color: #edaee0;
+    width: 30%;
+    height: 100%;
+}
 
 
 

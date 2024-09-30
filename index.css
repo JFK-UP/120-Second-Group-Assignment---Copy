@@ -1,0 +1,8 @@
+main{
+    height: 1000px;
+    background-image: linear-gradient(to right top, #ef2d57, #f7306f, #fc3888, #fd44a2, #fb52bb, #fa52bb, #f853ba, #f753ba, #f646a1, #f13a88, #ea3270, #e02d59);
+    opacity: 0.8;
+}
+body{
+    background-image: url(women-picture-folder/background1.jpg);
+}
