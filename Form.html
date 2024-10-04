@@ -8,20 +8,40 @@
 <div class="Scontainer">
     <div class="container">
         <body>
-            <header>      
-                    <a href="#bottom"><input type="submit" id="submit-button" class="header-container" value="Women's Day"></a>
+            <header> 
+                <form id=""survey-form>     
+                    <input type="submit" id="submit-button" class="header-container" value="Submit the form">
                    <p>Form submission button</p> 
             </header>
             <main>
                 <h1>Get in touch with us</h1>
                 <p><a href="index.html" target="_self">Home page</a></p>
+                    <fieldset >
+                    <h3>Your contact info</h3>
+                      <label class="userDetails" for="name" id="name-label">name<input type="text" id="name" required placeholder="Mathew"></label>
+                      <label class="userDetails" for="email" id="email-label">email<input type="email" id="email" required placeholder="example@email.com"></label>
+                      <label class="userDetails" for="number" id="number-label"  required="">Number<input type="number" id="number" required placeholder="How hold are you ?"></label>
+                    </fieldset>
+                    <br>
+                    <fieldset  >
+                      <h3>What is your occupation</h3>
+                      <label class="availability">I am working full time <input type="radio" name="occupation" ></label>
+                      <label class="availability">I am studying full time <input type="radio" name="occupation""></label>
+                      <labe class="availability"> I am unemployed and unoccupied <input type="radio" name="occupation"></labe>
+                    </fieldset>
+                    <fieldset>
+                        <label class="description" for="description" id="description-label"><h3>Tell us about an impactfull women in your life</h3></label><textarea id="description" name="description" cols="60" rows="15"></textarea></textarea>
+                        <label class="relation" id="relation"><h3>What is her relationship to you</h3></label>
+                        <select>
+                          <option value="Relative">Relative</option>
+                          <option value="Classmate">Classmate</option>
+                          <option value="Co-worker">Co-worker</option>
+                          <option value="Mentor">Mentor</option>
+                          <option value="None">None</option>
+                        </select>
+                    </fieldset>
+                  </form>
             </main>
-            <footer id="bottom">
-                <div class="about-section"><h1>Go</h1></div>
-                <div class="contact">
-                    <h1>Contact</h1>
-                </div>
-            </footer>
         </body>
     </div>
 </div>
